@@ -1,0 +1,17 @@
+#par1 {
+  font-size: 25px;
+  border: 2px solid;
+  text-align: center;
+}
+#par2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

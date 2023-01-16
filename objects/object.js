@@ -203,16 +203,20 @@
 // };
 // console.log(higherOrder(4)(3));
 
-// let fullStack = {
-//   languages: ["JavaScript", "React", "HTML"],
-//   jira: true,
-//   gitHub: true,
-//   difficulty: 8,
-// };
+let fullStack = {
+  languages: ["JavaScript", "React", "HTML"],
+  jira: true,
+  gitHub: true,
+  difficulty: 8,
+};
 
 // fullStack["languages"].forEach((lang) => {
 //   console.log(lang);
 // });
+
+for (let i = 0; i < fullStack.languages.length; i++) {
+  console.log(fullStack.languages[i]);
+}
 
 // let fullStack = {
 //   languages: ["JavaScript", "React", "HTML"],

@@ -25,10 +25,10 @@ console.log(input.classList.toggle("still"));
 
 // The createElement Method
 
-const div = document.createElement("div");
-div.style.width = "300px";
-div.style.height = "300px";
-div.style.backgroundColor = "red";
+// const div = document.createElement("div");
+// div.style.width = "300px";
+// div.style.height = "300px";
+// div.style.backgroundColor = "red";
 div.textContent = "ali";
 
 document.body.appendChild(div);

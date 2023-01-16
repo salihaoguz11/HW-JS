@@ -19,7 +19,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- ​
+    ​
     <style>
       .göster {
         display: block;
@@ -32,12 +32,12 @@
         height: 50vh;
         border: 3px solid black;
       }
-    </style> -->
+    </style>
   </head>
   <body>
     <!-------------------------------------------------------->
     <!-- 1. onclick -->
-
+    ​
     <!-- 1. yöntem  HTML içerisinde olayları tanımlayarak ve kullanarak (inline) -->
     ​
     <!-- <div class="container d-flex justify-content-center mt-5">
@@ -54,7 +54,7 @@
     ​
     <!-- 2. yöntem HTML içerisinde olay ve fonksiyonları çağırarak ve Javascript içerisinde bunları tanımlayarak-->
     ​
-    <div class="container d-flex justify-content-center mt-5">
+    <!-- <div class="container d-flex justify-content-center mt-5">
       <button type="button" class="btn btn-success px-4" onclick="ac()">
         AÇ
       </button>
@@ -70,18 +70,18 @@
         alt="ısık"
       />
     </div>
-
+​
     <script>
-      const img = document.querySelectorAll("img");
+      const img = document.querySelectorAll('img')
       function ac() {
-        img[0].src = "https://www.w3schools.com/js/pic_bulbon.gif";
+        img[0].src = 'https://www.w3schools.com/js/pic_bulbon.gif'
       }
-
+​
       function kapa() {
-        img[0].src = "https://www.w3schools.com/js/pic_bulboff.gif";
+        img[0].src = 'https://www.w3schools.com/js/pic_bulboff.gif'
       }
-    </script>
-
+    </script> -->
+    ​
     <!-------------------------------------------------------->
     ​
     <!-- 3. yöntem HTML sayfasında herhangi bir ekleme yapmaksızın
@@ -158,21 +158,21 @@
     ​
     <!-- resize event -->
     ​
-    <!-- <div
+    <div
       class="d-flex justify-content-center align-items-center flex-column vh-100"
       style="font-size: 5rem"
     >
       <p id="demo"></p>
     </div>
-​
+    ​
     <script>
-      let demo = document.getElementById('demo')
-      const intFrameWidth = document.body.clientWidth
-​
-      window.addEventListener('resize', function () {
-        demo.innerHTML = intFrameWidth
-      })
-    </script> -->
+            let demo = document.getElementById('demo')
+            const intFrameWidth = document.body.clientWidth
+      ​
+            window.addEventListener('resize', function () {
+              demo.innerHTML = intFrameWidth
+            })
+    </script>
     ​
     <!-------------------------------------------------------->
     ​

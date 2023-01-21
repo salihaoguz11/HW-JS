@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Guess-Game</title>
+    <title>Guess The Number</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,22 +13,25 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <header>
-      <h1>Guess The Number (1-100)</h1>
+      <h1>Gues The Number (1 - 100)</h1>
     </header>
     <main>
+      <div class="btn-con">
+        <button>Start Game</button>
+      </div>
       <div class="input-con">
         <input type="number" class="input" name="number-guess" />
-        <button>guess</button>
+        <button>Guess</button>
       </div>
-
       <div class="img-con"></div>
 
-      <description-con>
-        <h2 class="result">Write The Number</h2>
+      <div class="descriprition-con">
+        <h2 class="result">Welcome</h2>
         <p class="live-con">Number of attempts: <span id="live">3</span></p>
-      </description-con>
+      </div>
     </main>
     <script src="./app.js"></script>
   </body>

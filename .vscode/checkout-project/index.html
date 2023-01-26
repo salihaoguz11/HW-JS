@@ -5,6 +5,166 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <header><h1>Checkout</h1></header>
+
+    <main class="main">
+      <div class="information">
+        <h2>Contact Information</h2>
+        <label type="text" class="info" for="email">Email</label>
+        <input type="email" placeholder="Enter Your Email" />
+        <label for=" " class="info">Phone</label>
+        <input type="number" placeholder="Enter Your Phone" />
+
+        <h2>Shipping address</h2>
+        <label for="fullname" class="info">Fullname</label>
+        <input type="text" placeholder="Enter Your Fullname" />
+        <label for="address" class="info">Address</label>
+        <input type="text" placeholder="Enter Your Address" />
+        <label for="city" class="info">City</label>
+        <input type="text" placeholder="Enter Your City" />
+
+        <div class="location">
+          <div class="country">
+            <label class="info" for="country">Country</label>
+            <select name="country" id="country"></select>
+          </div>
+
+          <div class="postcode">
+            <label class="info" for="postcode">Post Code</label>
+            <input
+              type="text"
+              placeholder="Enter your postal code"
+              id="postcode"
+            />
+          </div>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="checkbox" id="save-info" />
+          <label for="save-info">See this informaton next time</label>
+        </div>
+        <div class="btn-continue">
+          <button>Continue</button>
+        </div>
+      </div>
+
+      <div class="cart">
+        <section class="item">
+          <div class="image">
+            <img src="./img/photo1.png" alt="" />
+          </div>
+          <div class="item-description">
+            <h3>Vintage Backpack</h3>
+
+            <div class="price">
+              <p>
+                <span>$</span>
+                <span class="disconted-price">25.98</span>
+              </p>
+
+              <p>
+                <span class="original-price">$34.99</span>
+              </p>
+            </div>
+
+            <div class="quantity">
+              <i id="btn-minus" class="fa-solid fa-square-minus"></i>
+              <span class="piece">1</span>
+              <i id="btn-plus" class="fa-solid fa-square-plus"></i>
+            </div>
+            <button class="btn-remove">Remove</button>
+            <p>
+              Product Total:$<Total:span class="item-subtotal"
+                >25.98</Total:span
+              >
+            </p>
+          </div>
+        </section>
+        <section class="item">
+          <div class="image">
+            <img src="./img/photo2.png" alt="" />
+          </div>
+          <div class="item-description">
+            <h3>Levi Shoes</h3>
+            <div class="price">
+              <p>
+                <span>$</span>
+                <span class="disconted-price">45.99</span>
+              </p>
+
+              <p>
+                <span class="original-price">$54.99</span>
+              </p>
+            </div>
+
+            <div class="quantity">
+              <i id="btn-minus" class="fa-solid fa-square-minus"></i>
+              <span class="piece">1</span>
+              <i id="btn-plus" class="fa-solid fa-square-plus"></i>
+            </div>
+            <button class="btn-remove">Remove</button>
+            <p>
+              Product Total:$<Total:span class="item-subtotal"
+                >45.99</Total:span
+              >
+            </p>
+          </div>
+        </section>
+        <section class="item">
+          <div class="image">
+            <img src="./img/photo3.jpg" alt="" />
+          </div>
+          <div class="item-description">
+            <h3>Antique Clock</h3>
+
+            <div class="price">
+              <p>
+                <span>$</span>
+                <span class="disconted-price">45.99</span>
+              </p>
+
+              <p>
+                <span class="original-price">$54.99</span>
+              </p>
+            </div>
+
+            <div class="quantity">
+              <i id="btn-minus" class="fa-solid fa-square-minus"></i>
+              <span class="piece">1</span>
+              <i id="btn-plus" class="fa-solid fa-square-plus"></i>
+            </div>
+            <button class="btn-remove">Remove</button>
+
+            <p>
+              Product Total:$<Total:span class="item-subtotal"
+                >45.99</Total:span
+              >
+            </p>
+          </div>
+        </section>
+
+        <section class="payment">
+          <div class="subtotal">
+            <span>Subtotal</span><span>$<span></span>416.96</span>
+          </div>
+          <div class="tax">
+            <span>Tax(18%)</span><span><span>$</span>26.95</span>
+          </div>
+          <div class="shipping">
+            <span>Shipping</span><span><span>$</span>15.00</span>
+          </div>
+          <div class="total">
+            <span>Total</span><span><span>$</span>188.91</span>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
 </html>

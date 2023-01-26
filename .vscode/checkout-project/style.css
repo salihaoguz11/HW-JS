@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.info {
+  display: block;
+}
+
+header {
+  text-align: center;
+}
+h1 {
+  margin: 2rem;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-bottom: 1rem;
+}
+.information {
+  width: 50%;
+}
+
+.information input {
+  width: 80%;
+  padding: 0.5rem;
+}
+
+.info {
+  margin-top: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+h2 {
+  margin-top: 0.1rem;
+  margin-bottom: 0.3rem;
+}
+.location {
+  display: flex;
+  margin-bottom: 1rem;
+  width: 80%;
+}
+.country {
+  margin-top: 1rem;
+}
+.postcode {
+  margin-top: 1rem;
+}
+#country {
+  width: 10rem;
+  height: 2.2rem;
+  margin-right: 1rem;
+}
+#postcode {
+  width: 18rem;
+}
+.checkbox {
+  display: flex;
+  justify-items: flex-start;
+  align-items: center;
+
+  /* align-items: flex-start;k */
+
+  margin-bottom: 1.5rem;
+  width: 80%;
+}
+
+#save-info {
+  width: auto;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+.btn-continue {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+}
+.btn-continue button {
+  color: white;
+  background-color: orange;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin-bottom: 0.5rem;
+}
+
+/***Cart**/
+.cart {
+  width: 30%;
+  min-width: 400px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 128, 68, 0.403);
+}
+img {
+  width: 10vw;
+  border-radius: 0.5rem;
+}
+.cart .item {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.item-description {
+  width: 60%;
+  /* border: 1px solid black; */
+  padding: 0.2rem 2rem;
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 0.2rem;
+  margin-left: 1.8rem;
+}
+
+.price {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: fit-content;
+  gap: 0.3rem;
+}
+
+.original-price {
+  text-decoration: line-through;
+}
+.quantity {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid gray;
+  padding: 0.1rem 0.4rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.piece {
+  font-size: larger;
+}
+#btn-plus,
+#btn-minus {
+  color: rgba(0, 0, 0, 0.633);
+}
+
+.btn-remove {
+  width: 50%;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+}
+/* .payment {
+  margin-bottom: 2rem;
+} */
+.payment div {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+  padding: 0.3rem 0;
+}
